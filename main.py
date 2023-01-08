@@ -72,12 +72,6 @@ async def on_message(message):
         await message.channel.send(
             "https://ibphysicsnotes.files.wordpress.com/2016/01/annotated-physics-data-booklet-2016.pdf"
         )
-    
-    elif ('fuck') in message.content:
-        await message.channel.send("Don't say the f word, "+message.author.name)
-
-    elif ('shit') in message.content:
-      await message.channel.send("Don't say that word, "+message.author.name)
 
     elif message.content.startswith('$spam'):     
       if message.author.name=='TangoMango':
